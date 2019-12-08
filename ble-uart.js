@@ -1,5 +1,5 @@
 module.exports = function(RED) {
-    var noble = require('noble');
+    var noble = require('@abandoware/noble');
 
     function BleUartNode(config) {
         RED.nodes.createNode(this, config);
